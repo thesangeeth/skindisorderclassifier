@@ -1,7 +1,13 @@
-In the field of dermatology, differential diagnosis of Erythmato-Squamous Diseases (ESD) is difficult. The six important types of ESD are including psoriasis, seborrheic dermatitis, lichen planus, pityriasis rosea, chronic dermatitis and pityriasis rubra pilaris.
-1. The dataset contains 366 rows and 35 columns in which 12 features are clinically evaluated first and rest 23 are found by taking the skin samples.
-2.There was no null values but Age attribute had some wrong value "?" and also age attribute had 0 as a value which is not possible thus we changed the wrong value and replaced the 0 value with the mean.
-3.While checking the correlation of these attributes it is seen that many attributes have high accuracy which was leading for overfitting and thus we changed those as well.The dropped attributes are itching,koebner_phenomenon,polygonal_papules,oral_mucosal_involvement, melanin_incontinence,eosinophils_in_the_infiltrate, acanthosis, hyperkeratosis, focal_hypergranulosis, vacuolisation_and_damage_of_basal_layer , saw-tooth_appearance_of_retes,inflammatory_monoluclear_inflitrate,band-like_infiltrate.
-4.We had used 5 Machine Learning Algorithms -Decision Tree,Random Forest,SVM,XG-Booster,Logistic Regression.
-5.From these Decision Tree showed an accuracy of 93%,Random Forest showed an accuracy of 93%,SVM has92%,XG-Booster has 93%,Logistic Regression has 92%.
-6.From these Random Forest was used for prediction and it showed the correct disease from the 6 diseases.
+1.In the field of dermatology, differential diagnosis of Erythmato-Squamous Diseases (ESD) is difficult. The six important types of ESD are including psoriasis, seborrheic dermatitis, lichen planus, pityriasis rosea,chronic dermatitis and pityriasis rubra pilaris.
+
+2. The dataset contains 366 rows and 35 columns in which 12 features are clinically evaluated first and rest 23 are found by taking the skin samples.
+
+3.There was no null values but Age attribute had some wrong value "?" and also age attribute had 0 as a value which is not possible thus we changed the wrong value and replaced the 0 value with the mean.
+
+4.While checking the correlation of these attributes it is seen that many attributes have high accuracy which was leading for overfitting and thus we changed those as well.The dropped attributes are itching,koebner_phenomenon,polygonal_papules,oral_mucosal_involvement, melanin_incontinence,eosinophils_in_the_infiltrate, acanthosis, hyperkeratosis, focal_hypergranulosis, vacuolisation_and_damage_of_basal_layer , saw-tooth_appearance_of_retes,inflammatory_monoluclear_inflitrate,band-like_infiltrate.
+
+5.We had used 5 Machine Learning Algorithms -Decision Tree,Random Forest,SVM,XG-Booster,Logistic Regression.
+
+6.From these Decision Tree showed an accuracy of 93%,Random Forest showed an accuracy of 93%,SVM has92%,XG-Booster has 93%,Logistic Regression has 92%.
+
+7.From these Random Forest was used for prediction and it showed the correct disease from the 6 diseases.
