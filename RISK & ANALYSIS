@@ -1,0 +1,6 @@
+RISKS:-
+Since all of the attributes are from medical domain it was difficult to learn about them and find the insights.But later we got familiar with them and found all the insights.
+
+ANALYSIS:-
+Early detection is the best prevention.Both clinical and histopathological analysis is required for the detection.Eventhough our model gives accurate prediction of the disease it is also required to examine under a specialist Doctor.In this model we had only used 22 attributes for prediction which can make the detection faster with the help of a specialist doctor.
+RISKS:-
